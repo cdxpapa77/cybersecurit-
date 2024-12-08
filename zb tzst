@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersécurité</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans le monde de la cybersécurité</h1>
+        <nav>
+            <ul>
+                <li><a href="#qu-est-ce-que-cybersecurite">Qu'est-ce que la cybersécurité ?</a></li>
+                <li><a href="#ddos">Attaques DDoS</a></li>
+                <li><a href="#doxxing">Doxxing</a></li>
+                <li><a href="#hacking">Commencer le Hacking Éthique</a></li>
+                <li><a href="#conseils">Conseils de sécurité</a></li>
+                <li><a href="#ressources">Ressources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="ddos">
+        <h2>Attaques DDoS</h2>
+        <p>Une attaque DDoS (Distributed Denial of Service) consiste à submerger un serveur, un service ou un réseau de trafic Internet, rendant les ressources indisponibles pour les utilisateurs légitimes. Cela se fait généralement en utilisant un réseau d'ordinateurs compromis, souvent appelés "botnets".</p>
+        <h3>Comment ça fonctionne ?</h3>
+        <p>Les attaquants lancent un grand nombre de requêtes simultanément à partir de plusieurs ordinateurs. L'objectif est de saturer la bande passante du serveur cible ou de l'appareil qui gère les requêtes, ce qui entraîne un ralentissement ou un arrêt complet du service.</p>
+        <h3>Comment se protéger contre les attaques DDoS ?</h3>
+        <ul>
+            <li><strong>Utiliser un CDN :</strong> Un réseau de diffusion de contenu (CDN) peut aider à filtrer le trafic malveillant et à répartir la charge sur plusieurs serveurs.</li>
+            <li><strong>Configurer un pare-feu :</strong> Des pare-feu et des systèmes de détection d'intrusion peuvent identifier et bloquer le trafic suspect.</li>
+            <li><strong>Limiter le trafic :</strong> Mettez en place des règles pour limiter le nombre de requêtes qu'une adresse IP peut faire dans un laps de temps donné.</li>
+            <li><strong>Surveiller le trafic :</strong> Utilisez des outils de surveillance pour détecter les anomalies dans le trafic et réagir rapidement.</li>
+        </ul>
+    </section>
+
+    <section id="doxxing">
+        <h2>Doxxing</h2>
+        <p>Le doxxing est la pratique consistant à rechercher et à divulguer des informations privées ou sensibles sur une personne sans son consentement, souvent dans le but de nuire ou de harceler. Cela peut inclure des informations telles que des adresses, des numéros de téléphone, des adresses email, des comptes de réseaux sociaux, et d'autres données personnelles.</p>
+        <h3>Comment se protéger contre le doxxing ?</h3>
+        <ul>
+            <li><strong>Protéger ses informations personnelles :</strong> Limitez les informations partagées en ligne et choisissez des paramètres de confidentialité stricts sur les réseaux sociaux.</li>
+            <li><strong>Utiliser des pseudonymes :</strong> Lorsque cela est possible, utilisez des noms d'utilisateur qui ne révèlent pas votre identité réelle.</li>
+            <li><strong>Éduquer votre entourage :</strong> Informez vos amis et votre famille sur les dangers du partage excessif d'informations personnelles.</li>
+            <li><strong>Vérifiez vos paramètres de sécurité :</strong> Assurez-vous que vos comptes en ligne sont sécurisés avec des mots de passe forts et l'authentification à deux facteurs.</li>
+        </ul>
+    </section>
+
+    <main>
+        <section id="qu-est-ce-que-cybersecurite">
+            <h2>Qu'est-ce que la cybersécurité ?</h2>
+            <p>La cybersécurité est l'ensemble des pratiques et technologies visant à protéger les systèmes, réseaux et données contre les cyberattaques.</p>
+        </section>
+
+        <section id="hacking">
+            <h2>Commencer le Hacking Éthique</h2>
+            <p>Le hacking éthique, également connu sous le nom de test d'intrusion, consiste à tester la sécurité des systèmes informatiques de manière légale et responsable. Voici quelques étapes pour commencer :</p>
+            <h3>1. Comprendre les Bases</h3>
+            <p>Avant de plonger dans le hacking, il est important de comprendre les concepts de base en matière de réseaux, systèmes d'exploitation, et protocoles de communication.</p>
+            
+            <h3>2. Apprendre à Programmer</h3>
+            <p>La programmation est essentielle pour le hacking éthique. Langages recommandés incluent Python, JavaScript, et Bash. Python est particulièrement apprécié pour ses bibliothèques de sécurité.</p>
+            
+            <h3>3. Étudier la Sécurité des Réseaux</h3>
+            <p>Familiarisez-vous avec les concepts de sécurité des réseaux, tels que les pare-feu, les VPN, et les protocoles de sécurité comme SSL/TLS.</p>
+            
+            <h3>4. Utiliser des Outils de Hacking</h3>
+            <p>Il existe de nombreux outils de hacking éthique tels que Metasploit, Nmap, et Wireshark. Apprenez à utiliser ces outils pour analyser la sécurité des systèmes.</p>
+            
+            <h3>5. Suivre des Cours et Certifications</h3>
+            <p>Il existe de nombreux cours en ligne, y compris ceux proposés par l'EC-Council pour obtenir la certification CEH (Certified Ethical Hacker) qui est reconnue dans le domaine.</p>
+            
+            <h3>6. Pratiquer l'Éthique</h3>
+            <p>Assurez-vous de toujours obtenir l'autorisation avant de tester un système et de respecter la loi. Le hacking éthique nécessite une responsabilité et une conduite éthique.</p>
+        </section>
+
+        <section id="conseils">
+            <h2>Conseils de sécurité</h2>
+            <ul>
+                <li>Utilisez des mots de passe forts.</li>
+                <li>Mettez à jour vos logiciels régulièrement.</li>
+                <li>Ne cliquez pas sur des liens suspects.</li>
+                <li>Effectuez des sauvegardes régulières de vos données.</li>
+            </ul>
+        </section>
+
+        <section id="ressources">
+            <h2>Ressources</h2>
+            <p>Voici quelques ressources utiles :</p>
+            <ul>
+                <li><a href="https://www.cybersecurite.gouv.fr" target="_blank">Gouvernement Français - Cybersécurité</a></li>
+                <li><a href="https://www.incibe.es" target="_blank">INCIBE - Cybersecurity</a></li>
+                <li><a href="https://www.staysafeonline.org" target="_blank">Stay Safe Online</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Cybersécurité - Créé par Loyd Raes. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
